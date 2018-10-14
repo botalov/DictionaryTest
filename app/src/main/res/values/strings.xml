@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">DictionaryTest</string>
+    <string name="api_key">dict.1.1.20180222T084930Z.8da57684e0397994.fb9275f758c7bcc0a6c0ab100c8167627b81a113</string>
+    <string name="lang">ru-en</string>
+    <string name="base_url">https://dictionary.yandex.net/</string>
+
+    <string name="dictionary_title">Словарь</string>
+    <string name="delete_question">Удалить слово?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="list_empty_message">Добавьте новый перевод</string>
+
+    <string name="add_word">Добавить слово</string>
+    <string name="change_word">Изменить слово</string>
+    <string name="add">Добавить</string>
+    <string name="save">Сохранить</string>
+    <string name="word">Слово</string>
+    <string name="translate">Перевод</string>
+    <string name="variants_translate">Варианты перевода</string>
+    <string name="delete_word">Удалить</string>
+    <string name="word_was_deleted">Слово удалено</string>
+
+    <string name="error_find_word_in_db">Слово не найдено</string>
+    <string name="error_load_list_words">Не удалось загрузить список</string>
+    <string name="error_add_word">Не удалось добавить слово</string>
+    <string name="error_fields_is_empty">Заполните поля</string>
+</resources>
