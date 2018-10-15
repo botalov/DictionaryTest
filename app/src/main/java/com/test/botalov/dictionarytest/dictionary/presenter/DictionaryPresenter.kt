@@ -50,6 +50,7 @@ class DictionaryPresenter : IDictionaryPresenter {
         val intent = Intent(context, AddWordActivity::class.java)
         intent.putExtra(AddWordActivity.IS_CHANGE_ARG, true)
         intent.putExtra(AddWordActivity.CHANGE_WORD_ID_ARG, wordId)
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         context?.startActivity(intent)
     }
 
